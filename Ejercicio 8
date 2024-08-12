@@ -1,0 +1,4 @@
+engranes = int(input("Introduce el número de engranes vendidos: "))
+cilindros = int(input("Introduce el número de cilindros vendidos: "))
+peso_total = engranes * 112 + cilindros * 75
+print(f"El peso total del paquete es: {peso_total} gramos")
